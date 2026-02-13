@@ -1,0 +1,29 @@
+  accent = "#AE3F82"              # Omarchy UI accent: links, focused controls, active states
+  cursor = "#ffe9c7"              # Cursor color in terminal templates
+  foreground = "#DCC9BC"          # Primary text color used across Omarchy templates
+  background = "#1A1515"          # Default background for terminals and themed UI surfaces
+
+  selection_foreground = "#2d2424" # Text color for selections
+  selection_background = "#DCC9BC" # Selection background used in terminal templates
+
+  # Base16-aligned 16-color palette.
+  # Omarchy templates map these to terminal color0-15 and Base16 base00-base0F.
+  color0  = "#1A1515"  # base00 - Deep background; primary canvas for terminals
+  color1  = "#F07342"  # base08 - Error/critical accents
+  color2  = "#959A6B"  # base0B - Success/positive accents
+  color3  = "#E39C45"  # base0A - Warning/attention accents
+  color4  = "#756D94"  # base0D - Primary accent (links, active, emphasis)
+  color5  = "#7B3D79"  # base0E - Secondary accent (special highlights)
+  color6  = "#AE3F82"  # base0C - Informational accents
+  color7  = "#DCC9BC"  # base05 - Default foreground for terminal text
+
+  color8  = "#2d2424"  # base03 - Dim text, inactive UI, subtle borders
+  color9  = "#CF223E"  # base08 - Bright/error variant
+  color10 = "#959A6B"  # base0B - Bright/success variant
+  color11 = "#E39C45"  # base0A - Bright/warning variant
+  color12 = "#756D94"  # base0D - Bright primary accent variant
+  color13 = "#7B3D79"  # base0E - Bright secondary accent variant
+  color14 = "#AE3F82"  # base0C - Bright informational accent variant
+  color15 = "#ffe9c7"  # base07 - Highest-contrast text
+
+

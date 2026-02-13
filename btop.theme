@@ -1,0 +1,82 @@
+
+# Theme: Biscuit-de-Mar-Dark
+# By: OldJobobo (https://github.com/OldJobobo)
+
+# Main bg
+theme[main_bg]="#1a1515"
+
+# Main text color
+theme[main_fg]="#ffe9c7"
+
+# Title color for boxes
+theme[title]="#ffe9c7"
+
+# Higlight color for keyboard shortcuts
+theme[hi_fg]="#cf223e"
+
+# Background color of selected item in processes box
+theme[selected_bg]="#2d2424"
+
+# Foreground color of selected item in processes box
+theme[selected_fg]="#ffe9c7"
+
+# Color of inactive/disabled text
+theme[inactive_fg]="#756d94"
+
+# Misc colors for processes box including mini cpu graphs, details memory graph and details status text
+theme[proc_misc]="#cf223e"
+
+# Cpu box outline color
+theme[cpu_box]="#7b3d79"
+
+# Memory/disks box outline color
+theme[mem_box]="#7b3d79"
+
+# Net up/down box outline color
+theme[net_box]="#7b3d79"
+
+# Processes box outline color
+theme[proc_box]="#7b3d79"
+
+# Box divider line and small boxes line color
+theme[div_line]="#7b3d79"
+
+# Temperature graph colors
+theme[temp_start]="#959a6b"
+theme[temp_mid]="#e39c45"
+theme[temp_end]="#cf223e"
+
+# CPU graph colors
+theme[cpu_start]="#959a6b"
+theme[cpu_mid]="#e39c45"
+theme[cpu_end]="#cf223e"
+
+# Mem/Disk free meter
+theme[free_start]="#959a6b"
+theme[free_mid]="#e39c45"
+theme[free_end]="#cf223e"
+
+# Mem/Disk cached meter
+theme[cached_start]="#959a6b"
+theme[cached_mid]="#e39c45"
+theme[cached_end]="#cf223e"
+
+# Mem/Disk available meter
+theme[available_start]="#959a6b"
+theme[available_mid]="#e39c45"
+theme[available_end]="#cf223e"
+
+# Mem/Disk used meter
+theme[used_start]="#959a6b"
+theme[used_mid]="#e39c45"
+theme[used_end]="#cf223e"
+
+# Download graph colors
+theme[download_start]="#959a6b"
+theme[download_mid]="#e39c45"
+theme[download_end]="#cf223e"
+
+# Upload graph colors
+theme[upload_start]="#959a6b"
+theme[upload_mid]="#e39c45"
+theme[upload_end]="#cf223e"

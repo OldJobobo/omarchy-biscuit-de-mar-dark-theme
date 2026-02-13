@@ -1,0 +1,64 @@
+
+/**
+ * @name Biscuit Dark
+ * @description Cozy warm colorscheme for the forest dwellers, Dark!
+ * @author Tsukki, Sleeping On Sound Waves
+ * @source https://github.com/mwittrien/BetterDiscordAddons/tree/master/Themes/DiscordRecolor/
+ * @BDEditor DiscordRecolor
+*/
+
+/*
+                  %%%%%%%%%%%%          
+               %%%%%%%%%%%%%%%%%%       
+             %%%%%%%%%%%%%%%%%%%%%%@    
+           %%%%.:%%%%%%%%%%%%%%..%%%%   
+          %%%%*..%%%%%%%%%%%%%%..%%%%%  
+         %%%%%%..%%%%%%%%%%%%%*..%%%%%% 
+        %%%%%%%..%%%%%%%%%%%%%:..%%%%%%%
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %%%%%%%..-%%%%%%%%%%%%=..%%%%%%%                 Biscuits!
+        %%%%%%....................%%%%%%                  "Warm and cozy colorscheme for Discord."
+        #%%%%%....................%%%%%%
+        :%%%%%%..................%%%%%%.
+        %.%%%%%%................#%%%%%.%
+         %.%%%%%%..............%%%%%%.% 
+          %.:%%%%%%%........%%%%%%%=.%  
+           %=..%%%%%%%%%%%%%%%%%%..:%   
+             %#...*%%%%%%%%%%*...+%@    
+               %%%............%%%       
+                  %%%%%%%%%%%%          
+*/
+
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/DiscordRecolor/DiscordRecolor.css');
+  :root
+  {
+  /* Things to use below, consider them as a 'easy editing tool'! */
+  --accent:      152, 159, 86 ;  /* Accent color to use. (Mossy Green)                                          */
+  --text:        244, 230, 210;  /* Text color to use. (Antique White)                                          */
+  --dtext:       182, 168, 165;  /* Dark text color to use. It is used for non-active text, I believe. (Silver) */
+  --maindark:    24, 21, 21   ;  /* Main dark color for background. (Night)                                     */
+  --altdark:     34, 30, 30   ;  /* Color used inside floating pages for better readibility. (Van Dyke)         */
+  --fnt:         gg sans      ;  /* Font to use. Default font is 'gg sans'.                                     */
+  /* End of section! */
+
+  /* Things! */
+  --accentcolor:            var(--accent)  ;
+  --accentcolor2:           var(--accent)  ;
+  --linkcolor:              var(--accent)  ;
+  --mentioncolor:           var(--accent)  ;
+  --textbrightest:          var(--text)    ;
+  --textbrighter:           var(--text)    ;
+  --textbright:             var(--text)    ;
+  --textdark:               var(--dtext)   ;
+  --textdarker:             var(--dtext)   ;
+  --textdarkest:            var(--dtext)   ;
+  --font:                   var(--fnt)     ;
+  --backgroundaccent:       var(--altdark) ;  /* The bar where you send text.                                   */
+  --backgroundprimary:      var(--maindark);  /* Chat box.                                                      */
+  --backgroundsecondary:    var(--maindark);  /* Channels, users bar.                                           */
+  --backgroundsecondaryalt: var(--altdark) ;  /* User bar down left, as well as the background in user popouts. */
+  --backgroundtertiary:     var(--altdark) ;  /* Left bar (servers bar), it seems.                              */
+  --backgroundfloating:     var(--altdark) ;  /* Separator from the main color in user popouts.                 */
+  --settingsicons:          1              ;
+  }
+
