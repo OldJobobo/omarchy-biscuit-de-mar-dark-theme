@@ -1,0 +1,46 @@
+/*
+*
+*
+*
+* ██████╗ ██╗███████╗ ██████╗██╗   ██╗██╗████████╗
+* ██╔══██╗██║██╔════╝██╔════╝██║   ██║██║╚══██╔══╝
+* ██████╔╝██║███████╗██║     ██║   ██║██║   ██║
+* ██╔══██╗██║╚════██║██║     ██║   ██║██║   ██║
+* ██████╔╝██║███████║╚██████╗╚██████╔╝██║   ██║
+* ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+*                          .-.
+*         .'            .;|/:
+*    .-..'  .-.        .;   : .-.     .;.::.
+*   :   ; .;.-'       .;    :;   :    .;
+*   `:::'`.`:::'  .:'.;     :`:::'-'.;'
+*                (__.'      `.             ɖǟʀӄ
+*                                                 
+*
+*/
+
+/* Base16 palette for Omarchy Biscuit de Mar (Dark)
+ * Comments are based on current real references in:
+ * gtk.css, waybar.css, wofi.css, walker.css, swayosd.css, aether.override.css, vencord.theme.css
+ */
+
+/* Surfaces */
+@define-color base00 #1A1515; /* ACTIVE (shared): primary background in GTK/Waybar/Wofi/Walker/SwayOSD/Aether */
+@define-color base01 #2d2424; /* CURRENTLY VENCORD-ONLY: defined, not consumed by GTK-style files */
+@define-color base02 #453636; /* CURRENTLY VENCORD-ONLY: defined, not consumed by GTK-style files */
+@define-color base03 #725a5a; /* ACTIVE (shared): borders/dividers + Aether bright_black */
+@define-color base04 #9c8181; /* CURRENTLY VENCORD-ONLY: muted soft token in Vencord mapping */
+
+/* Foregrounds */
+@define-color base05 #DCC9BC; /* ACTIVE (shared): standard foreground text across GTK stack + Waybar + Aether */
+@define-color base06 #ffe9c7; /* ACTIVE (limited): bright text in Aether + Vencord high-contrast token */
+
+/* Status + Accents */
+@define-color base07 #CF223E; /* CURRENTLY VENCORD-ONLY: unread/critical variant */
+@define-color base08 #F07342; /* ACTIVE (shared): error/destructive in GTK + Aether */
+@define-color base09 #E39C45; /* CURRENTLY VENCORD-ONLY: warning-like accent in Vencord mapping */
+@define-color base0A #959A6B; /* ACTIVE (shared): warning/progress in GTK + Wofi + SwayOSD + Aether */
+@define-color base0B #768F80; /* ACTIVE (shared): success/selected in GTK + Wofi + Aether */
+@define-color base0C #756D94; /* ACTIVE (shared): secondary accent in GTK + Aether (+ Vencord mapping) */
+@define-color base0D #614F76; /* ACTIVE (shared): primary selection/focus accent in GTK + Wofi + Walker + Aether */
+@define-color base0E #7B3D79; /* ACTIVE (shared): secondary accent in Wofi + Aether (+ Vencord mapping) */
+@define-color base0F #AE3F82; /* ACTIVE (shared): brand accent in Waybar (+ Vencord mapping) */

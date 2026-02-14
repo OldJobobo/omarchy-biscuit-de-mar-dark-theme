@@ -1,5 +1,27 @@
-@define-color background-color #181515;
-@define-color border-color #725a5a;
-@define-color label #ffe9c7;
-@define-color image #ffe9c7;
-@define-color progress #959a6b;
+/*
+*
+*
+*
+* ██████╗ ██╗███████╗ ██████╗██╗   ██╗██╗████████╗
+* ██╔══██╗██║██╔════╝██╔════╝██║   ██║██║╚══██╔══╝
+* ██████╔╝██║███████╗██║     ██║   ██║██║   ██║
+* ██╔══██╗██║╚════██║██║     ██║   ██║██║   ██║
+* ██████╔╝██║███████║╚██████╗╚██████╔╝██║   ██║
+* ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+*                          .-.
+*         .'            .;|/:
+*    .-..'  .-.        .;   : .-.     .;.::.
+*   :   ; .;.-'       .;    :;   :    .;
+*   `:::'`.`:::'  .:'.;     :`:::'-'.;'
+*                (__.'      `.             ɖǟʀӄ
+*                                                 
+*
+*/
+
+@import url("./colors.css");
+
+@define-color background-color @base00;
+@define-color border-color @base03;
+@define-color label @base0E;
+@define-color image @base0E;
+@define-color progress @base0A;

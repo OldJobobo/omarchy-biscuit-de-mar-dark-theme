@@ -1,3 +1,23 @@
+/*
+*
+*
+*
+* ██████╗ ██╗███████╗ ██████╗██╗   ██╗██╗████████╗
+* ██╔══██╗██║██╔════╝██╔════╝██║   ██║██║╚══██╔══╝
+* ██████╔╝██║███████╗██║     ██║   ██║██║   ██║
+* ██╔══██╗██║╚════██║██║     ██║   ██║██║   ██║
+* ██████╔╝██║███████║╚██████╗╚██████╔╝██║   ██║
+* ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+*                          .-.
+*         .'            .;|/:
+*    .-..'  .-.        .;   : .-.     .;.::.
+*   :   ; .;.-'       .;    :;   :    .;
+*   `:::'`.`:::'  .:'.;     :`:::'-'.;'
+*                (__.'      `.             ɖǟʀӄ
+*                                                 
+*
+*/
+
 /**
 * @name Omarchy Biscuit Vencord
 * @author @oldjobobo
@@ -9,30 +29,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&display=swap");
 
 :root {
-  /* Biscuit palette */
-  --color00: #181515;
-  --color01: #f07342;
-  --color02: #959A6B;
-  --color03: #E39C45;
-  --color04: #756D94;
-  --color05: #7B3D79;
-  --color06: #AE3F82;
-  --color07: #DCC9BC;
-  --color08: #725a5a;
-  --color09: #CF223E;
-  --color10: #959A6B;
-  --color11: #E39C45;
-  --color12: #756D94;
-  --color13: #7B3D79;
-  --color14: #AE3F82;
-  --color15: #ffe9c7;
+  /* Generated from colors.css (Base16) */
+  --base00: #1A1515;
+  --base01: #2d2424;
+  --base02: #453636;
+  --base03: #725a5a;
+  --base04: #9c8181;
+  --base05: #DCC9BC;
+  --base06: #ffe9c7;
+  --base07: #CF223E;
+  --base08: #F07342;
+  --base09: #E39C45;
+  --base0A: #959A6B;
+  --base0B: #768F80;
+  --base0C: #756D94;
+  --base0D: #614F76;
+  --base0E: #7B3D79;
+  --base0F: #AE3F82;
+
+  /* Terminal-style compatibility mapping */
+  --color00: var(--base00);
+  --color01: var(--base08);
+  --color02: var(--base0A);
+  --color03: var(--base09);
+  --color04: var(--base0C);
+  --color05: var(--base0E);
+  --color06: var(--base0F);
+  --color07: var(--base05);
+  --color08: var(--base03);
+  --color09: var(--base07);
+  --color10: var(--base0A);
+  --color11: var(--base09);
+  --color12: var(--base0C);
+  --color13: var(--base0E);
+  --color14: var(--base0F);
+  --color15: var(--base06);
 
   /* Biscuit semantic tokens */
   --biscuit-ink: var(--color00);
   --biscuit-ink-soft: color-mix(in srgb, var(--color00) 78%, var(--color08));
   --biscuit-crumb: var(--color08);
-  --biscuit-cream: var(--color15);
-  --biscuit-cream-soft: var(--color07);
+  --biscuit-cream: var(--color07);
+  --biscuit-cream-soft: var(--base04);
   --biscuit-jam: var(--color01);
   --biscuit-olive: var(--color03);
   --biscuit-sage: var(--color02);

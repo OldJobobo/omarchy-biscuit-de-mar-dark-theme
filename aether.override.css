@@ -5,26 +5,28 @@
  * Generated from palette colors selected in Aether
  */
 
-/* Dynamic Color Palette */
-@define-color background #181515;
-@define-color foreground #ffe9c7;
+@import url("./colors.css");
 
-@define-color black #181515;
-@define-color red #f07342;
-@define-color green #768f80;
-@define-color yellow #959a6b;
-@define-color blue #614f76;
-@define-color magenta #7b3d79;
-@define-color cyan #756d94;
-@define-color white #dcc9bc;
-@define-color bright_black #725a5a;
-@define-color bright_red #f07342;
-@define-color bright_green #768f80;
-@define-color bright_yellow #959a6b;
-@define-color bright_blue #614f76;
-@define-color bright_magenta #7b3d79;
-@define-color bright_cyan #756d94;
-@define-color bright_white #ffe9c7;
+/* Dynamic Color Palette */
+@define-color background @base00;
+@define-color foreground @base05;
+
+@define-color black @base00;
+@define-color red @base08;
+@define-color green @base0B;
+@define-color yellow @base0A;
+@define-color blue @base0D;
+@define-color magenta @base0E;
+@define-color cyan @base0C;
+@define-color white @base05;
+@define-color bright_black @base03;
+@define-color bright_red @base08;
+@define-color bright_green @base0B;
+@define-color bright_yellow @base0A;
+@define-color bright_blue @base0D;
+@define-color bright_magenta @base0E;
+@define-color bright_cyan @base0C;
+@define-color bright_white @base06;
 
 /* Base GTK theme variables */
 @define-color theme_bg_color @background;
@@ -187,4 +189,3 @@
 * {
     border-radius: 0;
 }
-

@@ -1,9 +1,29 @@
-/**
- * Biscuit de Mar (Dark) with Sharp Corners (Hyprland-inspired)
- * GTK4/Adwaita Custom Styling
- */
+/*
+* Biscuit de Mar (Dark) with Sharp Corners (Hyprland-inspired)
+* GTK4/Adwaita Custom Styling
+*/
 
-/* Canonical Base16 palette (source: biscuit-mar-dark-base16.yaml) */
+/*
+*
+*
+*
+* ██████╗ ██╗███████╗ ██████╗██╗   ██╗██╗████████╗
+* ██╔══██╗██║██╔════╝██╔════╝██║   ██║██║╚══██╔══╝
+* ██████╔╝██║███████╗██║     ██║   ██║██║   ██║
+* ██╔══██╗██║╚════██║██║     ██║   ██║██║   ██║
+* ██████╔╝██║███████║╚██████╗╚██████╔╝██║   ██║
+* ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+*                          .-.
+*         .'            .;|/:
+*    .-..'  .-.        .;   : .-.     .;.::.
+*   :   ; .;.-'       .;    :;   :    .;
+*   `:::'`.`:::'  .:'.;     :`:::'-'.;'
+*                (__.'      `.             ɖǟʀӄ
+*                                                 
+*
+*/
+
+
 @define-color base00 #1A1515;
 @define-color base01 #2d2424;
 @define-color base02 #453636;

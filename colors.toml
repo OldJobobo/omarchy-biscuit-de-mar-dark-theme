@@ -1,3 +1,21 @@
+#
+#
+# ██████╗ ██╗███████╗ ██████╗██╗   ██╗██╗████████╗
+# ██╔══██╗██║██╔════╝██╔════╝██║   ██║██║╚══██╔══╝
+# ██████╔╝██║███████╗██║     ██║   ██║██║   ██║
+# ██╔══██╗██║╚════██║██║     ██║   ██║██║   ██║
+# ██████╔╝██║███████║╚██████╗╚██████╔╝██║   ██║
+# ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+#                          .-.
+#         .'            .;|/:
+#    .-..'  .-.        .;   : .-.     .;.::.
+#   :   ; .;.-'       .;    :;   :    .;
+#   `:::'`.`:::'  .:'.;     :`:::'-'.;'
+#                (__.'      `.             ɖǟʀӄ
+#                                                 
+
+
+
   accent = "#AE3F82"              # Omarchy UI accent: links, focused controls, active states
   cursor = "#ffe9c7"              # Cursor color in terminal templates
   foreground = "#DCC9BC"          # Primary text color used across Omarchy templates
@@ -17,7 +35,7 @@
   color6  = "#AE3F82"  # base0C - Informational accents
   color7  = "#DCC9BC"  # base05 - Default foreground for terminal text
 
-  color8  = "#2d2424"  # base03 - Dim text, inactive UI, subtle borders
+  color8  = "#453636"  # base03 - Dim text, inactive UI, subtle borders
   color9  = "#CF223E"  # base08 - Bright/error variant
   color10 = "#959A6B"  # base0B - Bright/success variant
   color11 = "#E39C45"  # base0A - Bright/warning variant
