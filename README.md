@@ -6,7 +6,7 @@ Biscuit de Mar dark is a colorscheme by [abb3v](https://github.com/abb3v/abb3v) 
 
 ## Preview
 
-![Theme preview](backgrounds/01_biscuit_basic.png)
+![Theme preview](preview.png)
 
 ## Install
 
