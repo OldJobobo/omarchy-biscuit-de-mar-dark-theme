@@ -1,44 +1,17 @@
 --[[
-Previous config (commented out):
-
-return {
-    {
-        "bjarneo/aether.nvim",
-        branch = "v2",
-        name = "aether",
-        priority = 1000,
-        opts = {
-            transparent = false,
-            colors = {
-                bg = "#1A1515",
-                bg_dark = "#1A1515",
-                bg_highlight = "#725a5a",
-                fg = "#ffe9c7",
-                fg_dark = "#dcc9bc",
-                comment = "#725a5a",
-                red = "#f07342",
-                orange = "#f07342",
-                yellow = "#959a6b",
-                green = "#768f80",
-                cyan = "#756d94",
-                blue = "#614f76",
-                purple = "#7b3d79",
-                magenta = "#7b3d79",
-            },
-        },
-        config = function(_, opts)
-            require("aether").setup(opts)
-            vim.cmd.colorscheme("aether")
-            require("aether.hotreload").setup()
-        end,
-    },
-    {
-        "LazyVim/LazyVim",
-        opts = {
-            colorscheme = "aether",
-        },
-    },
-}
+-- ██████╗ ██╗███████╗ ██████╗██╗   ██╗██╗████████╗
+-- ██╔══██╗██║██╔════╝██╔════╝██║   ██║██║╚══██╔══╝
+-- ██████╔╝██║███████╗██║     ██║   ██║██║   ██║
+-- ██╔══██╗██║╚════██║██║     ██║   ██║██║   ██║
+-- ██████╔╝██║███████║╚██████╗╚██████╔╝██║   ██║
+-- ╚═════╝ ╚═╝╚══════╝ ╚═════╝ ╚═════╝ ╚═╝   ╚═╝
+--                         .-.
+--         .'            .;|/:
+--    .-..'  .-.        .;   : .-.     .;.::.
+--   :   ; .;.-'       .;    :;   :    .;
+--   `:::'`.`:::'  .:'.;     :`:::'-'.;'
+--                (__.'      `.             ɖǟʀӄ
+--                                                 
 ]]
 
 return {
@@ -49,17 +22,17 @@ return {
 		config = function()
 			vim.cmd.colorscheme("biscuit")
 
-				local function fix_popup_highlights()
-					-- Force popup/float UI to a consistent palette after any colorscheme/plugin reload.
-					local bg = "#1A1515"
-					local light_bg = "#453636"
-					local fg = "#ffe9c7"
-					local border = "#725a5a"
-					local accent = "#f07342"
-					local indent = "#453636"
-					local scope = "#725a5a"
+			local function fix_popup_highlights()
+				-- Force popup/float UI to a consistent palette after any colorscheme/plugin reload.
+				local bg = "#1A1515"
+				local light_bg = "#453636"
+				local fg = "#ffe9c7"
+				local border = "#725a5a"
+				local accent = "#f07342"
+				local indent = "#453636"
+				local scope = "#725a5a"
 
-					vim.api.nvim_set_hl(0, "NormalFloat", { bg = bg, fg = fg })
+				vim.api.nvim_set_hl(0, "NormalFloat", { bg = bg, fg = fg })
 				vim.api.nvim_set_hl(0, "FloatBorder", { bg = bg, fg = border })
 				vim.api.nvim_set_hl(0, "Pmenu", { bg = bg, fg = fg })
 				vim.api.nvim_set_hl(0, "PmenuSel", { bg = border, fg = fg, bold = true })
@@ -152,42 +125,42 @@ return {
 					vim.api.nvim_set_hl(0, "CmpItemKind" .. kind, { fg = accent })
 				end
 
-					-- noice cmdline popup groups (safe if unused)
-					vim.api.nvim_set_hl(0, "NoiceCmdlinePopup", { bg = bg, fg = fg })
-					vim.api.nvim_set_hl(0, "NoiceCmdlinePopupBorder", { bg = bg, fg = border })
-					vim.api.nvim_set_hl(0, "NoiceCmdlineIcon", { fg = accent })
+				-- noice cmdline popup groups (safe if unused)
+				vim.api.nvim_set_hl(0, "NoiceCmdlinePopup", { bg = bg, fg = fg })
+				vim.api.nvim_set_hl(0, "NoiceCmdlinePopupBorder", { bg = bg, fg = border })
+				vim.api.nvim_set_hl(0, "NoiceCmdlineIcon", { fg = accent })
 
-					-- indent-blankline/ibl guides (right of line numbers)
-					vim.api.nvim_set_hl(0, "IblIndent", { fg = indent, nocombine = true })
-					vim.api.nvim_set_hl(0, "IblWhitespace", { fg = indent, nocombine = true })
-					vim.api.nvim_set_hl(0, "IblScope", { fg = scope, nocombine = true })
-					vim.api.nvim_set_hl(0, "IndentBlanklineChar", { fg = indent, nocombine = true })
-					vim.api.nvim_set_hl(0, "IndentBlanklineContextChar", { fg = scope, nocombine = true })
+				-- indent-blankline/ibl guides (right of line numbers)
+				vim.api.nvim_set_hl(0, "IblIndent", { fg = indent, nocombine = true })
+				vim.api.nvim_set_hl(0, "IblWhitespace", { fg = indent, nocombine = true })
+				vim.api.nvim_set_hl(0, "IblScope", { fg = scope, nocombine = true })
+				vim.api.nvim_set_hl(0, "IndentBlanklineChar", { fg = indent, nocombine = true })
+				vim.api.nvim_set_hl(0, "IndentBlanklineContextChar", { fg = scope, nocombine = true })
 
-					-- Rainbow indent fallback groups if enabled by plugin config.
-					vim.api.nvim_set_hl(0, "RainbowRed", { fg = "#F07342" })
-					vim.api.nvim_set_hl(0, "RainbowYellow", { fg = "#E39C45" })
-					vim.api.nvim_set_hl(0, "RainbowBlue", { fg = "#614F76" })
-					vim.api.nvim_set_hl(0, "RainbowOrange", { fg = "#959A6B" })
-					vim.api.nvim_set_hl(0, "RainbowGreen", { fg = "#768F80" })
-					vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#7B3D79" })
-					vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#AE3F82" })
+				-- Rainbow indent fallback groups if enabled by plugin config.
+				vim.api.nvim_set_hl(0, "RainbowRed", { fg = "#F07342" })
+				vim.api.nvim_set_hl(0, "RainbowYellow", { fg = "#E39C45" })
+				vim.api.nvim_set_hl(0, "RainbowBlue", { fg = "#614F76" })
+				vim.api.nvim_set_hl(0, "RainbowOrange", { fg = "#959A6B" })
+				vim.api.nvim_set_hl(0, "RainbowGreen", { fg = "#768F80" })
+				vim.api.nvim_set_hl(0, "RainbowViolet", { fg = "#7B3D79" })
+				vim.api.nvim_set_hl(0, "RainbowCyan", { fg = "#AE3F82" })
 
-					-- Git/diff gutter bars in signcolumn.
-					vim.api.nvim_set_hl(0, "SignColumn", { bg = "NONE" })
-					vim.api.nvim_set_hl(0, "DiffAdd", { bg = "#2d2424", fg = "#768F80" })
-					vim.api.nvim_set_hl(0, "DiffChange", { bg = "#2d2424", fg = "#756D94" })
-					vim.api.nvim_set_hl(0, "DiffDelete", { bg = "#2d2424", fg = "#F07342" })
-					vim.api.nvim_set_hl(0, "DiffText", { bg = "#453636", fg = "#DCC9BC", bold = true })
-					vim.api.nvim_set_hl(0, "GitSignsAdd", { fg = "#768F80", bg = "NONE" })
-					vim.api.nvim_set_hl(0, "GitSignsChange", { fg = "#756D94", bg = "NONE" })
-					vim.api.nvim_set_hl(0, "GitSignsDelete", { fg = "#F07342", bg = "NONE" })
-					vim.api.nvim_set_hl(0, "GitSignsTopdelete", { fg = "#F07342", bg = "NONE" })
-					vim.api.nvim_set_hl(0, "GitSignsChangedelete", { fg = "#E39C45", bg = "NONE" })
-					vim.api.nvim_set_hl(0, "MiniDiffSignAdd", { fg = "#768F80", bg = "NONE" })
-					vim.api.nvim_set_hl(0, "MiniDiffSignChange", { fg = "#756D94", bg = "NONE" })
-					vim.api.nvim_set_hl(0, "MiniDiffSignDelete", { fg = "#F07342", bg = "NONE" })
-				end
+				-- Git/diff gutter bars in signcolumn.
+				vim.api.nvim_set_hl(0, "SignColumn", { bg = "NONE" })
+				vim.api.nvim_set_hl(0, "DiffAdd", { bg = "#2d2424", fg = "#768F80" })
+				vim.api.nvim_set_hl(0, "DiffChange", { bg = "#2d2424", fg = "#756D94" })
+				vim.api.nvim_set_hl(0, "DiffDelete", { bg = "#2d2424", fg = "#F07342" })
+				vim.api.nvim_set_hl(0, "DiffText", { bg = "#453636", fg = "#DCC9BC", bold = true })
+				vim.api.nvim_set_hl(0, "GitSignsAdd", { fg = "#768F80", bg = "NONE" })
+				vim.api.nvim_set_hl(0, "GitSignsChange", { fg = "#756D94", bg = "NONE" })
+				vim.api.nvim_set_hl(0, "GitSignsDelete", { fg = "#F07342", bg = "NONE" })
+				vim.api.nvim_set_hl(0, "GitSignsTopdelete", { fg = "#F07342", bg = "NONE" })
+				vim.api.nvim_set_hl(0, "GitSignsChangedelete", { fg = "#E39C45", bg = "NONE" })
+				vim.api.nvim_set_hl(0, "MiniDiffSignAdd", { fg = "#768F80", bg = "NONE" })
+				vim.api.nvim_set_hl(0, "MiniDiffSignChange", { fg = "#756D94", bg = "NONE" })
+				vim.api.nvim_set_hl(0, "MiniDiffSignDelete", { fg = "#F07342", bg = "NONE" })
+			end
 
 			fix_popup_highlights()
 			local group = vim.api.nvim_create_augroup("OmarchyBiscuitPopupHighlights", { clear = true })
@@ -209,3 +182,17 @@ return {
 		},
 	},
 }
+
+--  ______   __       ______
+-- /_____/\ /_/\     /_____/\
+-- \:::_ \ \\:\ \    \:::_ \ \
+--  \:\ \ \ \\:\ \    \:\ \ \ \
+--   \:\ \ \ \\:\ \____\:\ \ \ \
+--    \:\_\ \ \\:\/___/\\:\/.:| |
+--  ___\_____\/_\_____\/ \____/_/  ______    _______   ______
+-- /________/\/_____/\ /_______/\ /_____/\ /_______/\ /_____/\
+-- \__.::.__\/\:::_ \ \\::: _  \ \\:::_ \ \\::: _  \ \\:::_ \ \
+--   /_\::\ \  \:\ \ \ \\::(_)  \/_\:\ \ \ \\::(_)  \/_\:\ \ \ \
+--   \:.\::\ \  \:\ \ \ \\::  _  \ \\:\ \ \ \\::  _  \ \\:\ \ \ \
+--    \: \  \ \  \:\_\ \ \\::(_)  \ \\:\_\ \ \\::(_)  \ \\:\_\ \ \
+--     \_____\/   \_____\/ \_______\/ \_____\/ \_______\/ \_____\/
