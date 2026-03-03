@@ -20,14 +20,14 @@
 
 @import url("./colors.css");
 
-@define-color bg @base00;
-@define-color fg @base05;
-@define-color gray1 @base0B;
-@define-color gray2 @base03;
-@define-color gray3 @base0D;
-@define-color gray4 @base0A;
-@define-color gray5 @base0E;
-@define-color fg_bright @base05;
+@define-color bg @background;
+@define-color fg @foreground;
+@define-color gray1 @color2;
+@define-color gray2 @color8;
+@define-color gray3 @color4;
+@define-color gray4 @color3;
+@define-color gray5 @color5;
+@define-color fg_bright @foreground;
 
 window {
     background-color: @bg;

@@ -20,12 +20,12 @@
 
 @import url("./colors.css");
 
-@define-color selected-text @base09;
-@define-color text @base0D;
-@define-color base @base00;
-@define-color border @base03;
-@define-color foreground @base05;
-@define-color background @base00;
+@define-color selected-text @color3;
+@define-color text @color4;
+@define-color base @color0;
+@define-color border @color8;
+@define-color foreground @color7;
+@define-color background @color0;
 
 /* ______   __       ______
 * /_____/\ /_/\     /_____/\                                      

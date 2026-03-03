@@ -20,9 +20,9 @@
 
 @import url("./colors.css");
 
-@define-color background alpha(@base00, 0.8);
-@define-color foreground @base05;
-@define-color accent @base0F;
+@define-color background alpha(@color0, 0.8);
+@define-color foreground @color7;
+@define-color accent @color6;
 
 /* ______   __       ______
 * /_____/\ /_/\     /_____/\                                      

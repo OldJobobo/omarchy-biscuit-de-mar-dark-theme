@@ -8,25 +8,25 @@
 @import url("./colors.css");
 
 /* Dynamic Color Palette */
-@define-color background @base00;
-@define-color foreground @base05;
+@define-color background @color0;
+@define-color foreground @color7;
 
-@define-color black @base00;
-@define-color red @base08;
-@define-color green @base0B;
-@define-color yellow @base0A;
-@define-color blue @base0D;
-@define-color magenta @base0E;
-@define-color cyan @base0C;
-@define-color white @base05;
-@define-color bright_black @base03;
-@define-color bright_red @base08;
-@define-color bright_green @base0B;
-@define-color bright_yellow @base0A;
-@define-color bright_blue @base0D;
-@define-color bright_magenta @base0E;
-@define-color bright_cyan @base0C;
-@define-color bright_white @base06;
+@define-color black @color0;
+@define-color red @color1;
+@define-color green @color2;
+@define-color yellow @color3;
+@define-color blue @color4;
+@define-color magenta @color5;
+@define-color cyan @color6;
+@define-color white @color7;
+@define-color bright_black @color8;
+@define-color bright_red @color9;
+@define-color bright_green @color10;
+@define-color bright_yellow @color11;
+@define-color bright_blue @color12;
+@define-color bright_magenta @color13;
+@define-color bright_cyan @color14;
+@define-color bright_white @color15;
 
 /* Base GTK theme variables */
 @define-color theme_bg_color @background;

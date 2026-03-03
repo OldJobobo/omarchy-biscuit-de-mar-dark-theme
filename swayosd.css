@@ -20,11 +20,11 @@
 
 @import url("./colors.css");
 
-@define-color background-color @base00;
-@define-color border-color @base03;
-@define-color label @base0E;
-@define-color image @base0E;
-@define-color progress @base0A;
+@define-color background-color @background;
+@define-color border-color @color8;
+@define-color label @color5;
+@define-color image @color5;
+@define-color progress @color3;
 
 /* ______   __       ______
 * /_____/\ /_/\     /_____/\                                      
