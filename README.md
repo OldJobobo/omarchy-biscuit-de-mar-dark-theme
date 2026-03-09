@@ -20,29 +20,12 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-t
 
 ## Wallpapers
 
-<table>
-  <tr>
-    <td><img src="backgrounds/01_biscuit_basic.png" width="220" alt="01_biscuit_basic"></td>
-    <td><img src="backgrounds/02_biscuit_alt.png" width="220" alt="02_biscuit_alt"></td>
-    <td><img src="backgrounds/03_maroon_pulse.png" width="220" alt="03_maroon_pulse"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/04_espresso_gradient.png" width="220" alt="04_espresso_gradient"></td>
-    <td><img src="backgrounds/05_muted_maroon_gradient.png" width="220" alt="05_muted_maroon_gradient"></td>
-    <td><img src="backgrounds/06_cinematic_glow.png" width="220" alt="06_cinematic_glow"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/07_textured_espresso.png" width="220" alt="07_textured_espresso"></td>
-    <td><img src="backgrounds/08_brutalist_night.png" width="220" alt="08_brutalist_night"></td>
-    <td><img src="backgrounds/09_moody_forest.png" width="220" alt="09_moody_forest"></td>
-  </tr>
-  <tr>
-    <td><img src="backgrounds/10_painted_landscape.png" width="220" alt="10_painted_landscape"></td>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
+| | | |
+| --- | --- | --- |
+| ![](backgrounds/0-biscuit-logo.png) | ![](backgrounds/1-omarchy-sigil.png) | ![](backgrounds/2-doorway-beams.png) |
+| ![](backgrounds/3-amber-beam.png) | ![](backgrounds/4-copper-arc.png) | ![](backgrounds/5-rainlight-bokeh.png) |
+| ![](backgrounds/6-biscuit-emblem.png) | ![](backgrounds/7-concrete-nocturne.png) | ![](backgrounds/8-violet-forest.png) |
+| ![](backgrounds/9-pastel-marsh.png) |  |  |
 
 ## Notes
 
