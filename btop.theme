@@ -3,7 +3,7 @@
 # By: OldJobobo (https://github.com/OldJobobo)
 
 # Main bg
-theme[main_bg]="#1a1515"
+theme[main_bg]=""
 
 # Main text color
 theme[main_fg]="#ffe9c7"
