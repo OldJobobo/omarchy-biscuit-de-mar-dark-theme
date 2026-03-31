@@ -31,6 +31,7 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-t
 
 - `hyprland.conf` sets themed active/inactive border colors and light blur values.
 - `neovim.lua` targets the Biscuit Neovim colorscheme and applies popup/completion highlight overrides.
+- `vscode.json` wires Omarchy's VS Code integration to `oldjobobo.biscuit-theme`.
 - The palette is centralized in `colors.toml` and reflected in `colors.css` for cross-app consistency.
 
 ## Attribution
