@@ -25,7 +25,7 @@ omarchy-theme-install https://github.com/OldJobobo/omarchy-biscuit-de-mar-dark-t
 | ![](backgrounds/0-biscuit-logo.png) | ![](backgrounds/1-omarchy-sigil.png) | ![](backgrounds/2-doorway-beams.png) |
 | ![](backgrounds/3-amber-beam.png) | ![](backgrounds/4-copper-arc.png) | ![](backgrounds/5-rainlight-bokeh.png) |
 | ![](backgrounds/6-biscuit-emblem.png) | ![](backgrounds/7-concrete-nocturne.png) | ![](backgrounds/8-violet-forest.png) |
-| ![](backgrounds/9-pastel-marsh.png) |  |  |
+| ![](backgrounds/9-pastel-marsh.png) | ![](backgrounds/10-violet-tourer.jpg) |  |
 
 ## Notes
 
